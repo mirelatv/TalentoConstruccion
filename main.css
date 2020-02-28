@@ -1,0 +1,81 @@
+body{
+  background: linear-gradient(rgb(68, 67, 67),rgb(114, 114, 114),rgb(150, 149, 149));
+  background-size: cover;
+  
+} 
+
+
+.circle{
+border-radius: 50%;
+height: 180px;
+   
+}
+
+
+.Icon{
+ 
+height: 30px;
+
+}
+.Line{
+  width: 200px;
+  background-color: aliceblue;
+  align-items: center;
+  height: 3px;
+}
+
+.marco{
+border-color:white;
+}
+
+.mantenimiento{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Bebas Neue', cursive;
+  margin-top: 20vh; 
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 60PX;
+  line-height: 44px;
+  color: white;
+  letter-spacing: 3.5px;
+ 
+}
+.p2{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20PX;
+  line-height: 60px;
+  color: white;
+  letter-spacing: 3.5px;
+}
+.flex{
+  display: flex;
+   flex-flow: row wrap;
+   justify-content: center
+  
+}
+
+
+.footer{
+  color: aliceblue;
+  letter-spacing: 3.5px;
+}
+
+@media (max-width: 640px){
+
+.mantenimiento{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 40PX;
+  color: white;
+}
+
+.p2 {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 60px;
+  color: white;
+  text-align: center;
+}
+}
