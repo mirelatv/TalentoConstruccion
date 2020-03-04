@@ -1,6 +1,7 @@
 body{
   background: linear-gradient(rgb(68, 67, 67),rgb(150, 149, 149));
   background-size: cover;
+  height: 100vh;
   
 } 
 
